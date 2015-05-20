@@ -1,0 +1,9 @@
+$(document).ready(function(){
+   $(".link-collection").hover(function(){
+      $(this).children(".link-collection-table").show();      
+      $(this).addClass("cover"); 
+  },function(){
+      $(this).children(".link-collection-table").hide();  
+      $(this).removeClass("cover");
+  });  
+});
