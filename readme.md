@@ -1,2 +1,0 @@
-# MyMetronic
-the front tests
